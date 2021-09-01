@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626072220123' stop='1626072220126'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure area</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1626072220123' status='passed' stop='1626072220123'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.6.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626072220123' status='broken' stop='1626072220125'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.6.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: no current window handle registered</message>
+                <stack-trace>Error: no current window handle registered
+                    at DevToolsDriver.getPageHandle (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/devtools/build/devtoolsdriver.js:166:19)
+                    at DevToolsDriver.checkPendingNavigations (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/devtools/build/devtoolsdriver.js:179:25)
+                    at Browser.wrappedCommand (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/devtools/build/devtoolsdriver.js:97:24)
+                    at Browser.wrapCommandFn (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/@wdio/utils/build/shim.js:78:38)
+                    at Browser.wrapCommandFn (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/@wdio/utils/build/shim.js:78:29)
+                    at World.&lt;anonymous> (/Users/shabandi/Desktop/Risk/docker/bdd/features/step-definitions/steps.js:11:5)
+                    at World.executeAsync (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/@wdio/utils/build/shim.js:136:16)
+                    at World.testFrameworkFnWrapper (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1626072220125' status='undefined'>
+            <name>When I login with foobar and barfoo</name>
+            <title>When I login with foobar and barfoo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.6.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626072220126' status='pending' stop='1626072220126'>
+            <name>I login with foobar and barfoo</name>
+            <title>I login with foobar and barfoo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1626072220126' status='undefined'>
+            <name>Then I should see a flash message saying Your username is invalid!</name>
+            <title>Then I should see a flash message saying Your username is invalid!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.6.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626072220126' status='pending' stop='1626072220126'>
+            <name>I should see a flash message saying Your username is invalid!</name>
+            <title>I should see a flash message saying Your username is invalid!</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1626072220126' status='passed' stop='1626072220126'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.6.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -5,8 +5,8 @@ services:
     build:
       context: ./demo
       dockerfile: Dockerfile
-    image: frontendreact
-    container_name: frontendreact
+    image: backendjava
+    container_name: backendjava
     ports:
       - 8080:8080
 
@@ -14,8 +14,8 @@ services:
     build:
       context: ./react-app
       dockerfile: Dockerfile
-    image: backendjava
-    container_name: backendjava
+    image: frontreact
+    container_name: frontreact
     ports:
       - '5000:80'
     depends_on:
@@ -47,3 +47,15 @@ services:
     depends_on: 
       - backend
       - frontend
+  
+  # bdd:
+  #   build:
+  #     context: ./bdd
+  #     dockerfile: Dockerfile
+  #   image: bdd
+  #   container_name: bddcontainer
+  #   depends_on:
+  #     - backend
+  #     - frontend
+  #     # - selenium-hub
+  #     - chrome

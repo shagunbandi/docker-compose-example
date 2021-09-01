@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626072215052' stop='1626072220115'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure area</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1626072215054' status='passed' stop='1626072215057'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.6.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626072215057' status='broken' stop='1626072220112'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.6.0'/>
+            </parameters>
+            <steps>
+                <step start='1626072215065' status='broken' stop='1626072220112'>
+                    <name>undefined undefined</name>
+                    <title>undefined undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Navigation failed because browser has disconnected!</message>
+                <stack-trace>Navigation failed because browser has disconnected!
+                Error: Navigation failed because browser has disconnected!
+                    at /Users/shabandi/Desktop/Risk/docker/bdd/node_modules/puppeteer-core/src/common/LifecycleWatcher.ts:111:13
+                    at /Users/shabandi/Desktop/Risk/docker/bdd/node_modules/puppeteer-core/vendor/mitt/src/index.ts:88:75
+                    at Array.map (&lt;anonymous>)
+                    at Object.emit (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/puppeteer-core/vendor/mitt/src/index.ts:88:56)
+                    at CDPSession.emit (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/puppeteer-core/src/common/EventEmitter.ts:102:18)
+                    at CDPSession._onClosed (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/puppeteer-core/src/common/Connection.ts:330:10)
+                    at Connection._onMessage (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/puppeteer-core/src/common/Connection.ts:131:17)
+                    at WebSocket.&lt;anonymous> (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/puppeteer-core/src/node/NodeWebSocketTransport.ts:41:42)
+                    at WebSocket.onMessage (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/ws/lib/event-target.js:132:16)
+                    at WebSocket.emit (events.js:315:20)
+                    at WebSocket.EventEmitter.emit (domain.js:483:12)
+                    at Receiver.receiverOnMessage (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/ws/lib/websocket.js:873:20)
+                    at Receiver.emit (events.js:315:20)
+                    at Receiver.EventEmitter.emit (domain.js:483:12)
+                    at Receiver.dataMessage (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/ws/lib/receiver.js:517:14)
+                    at Receiver.getData (/Users/shabandi/Desktop/Risk/docker/bdd/node_modules/ws/lib/receiver.js:435:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1626072220112' status='undefined'>
+            <name>When I login with tomsmith and SuperSecretPassword!</name>
+            <title>When I login with tomsmith and SuperSecretPassword!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.6.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626072220113' status='pending' stop='1626072220113'>
+            <name>I login with tomsmith and SuperSecretPassword!</name>
+            <title>I login with tomsmith and SuperSecretPassword!</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1626072220113' status='undefined'>
+            <name>Then I should see a flash message saying You logged into a secure area!</name>
+            <title>Then I should see a flash message saying You logged into a secure area!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.6.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626072220113' status='pending' stop='1626072220113'>
+            <name>I should see a flash message saying You logged into a secure area!</name>
+            <title>I should see a flash message saying You logged into a secure area!</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1626072220113' status='passed' stop='1626072220114'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.6.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
